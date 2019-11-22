@@ -54,7 +54,7 @@ submitForm(e) {
       <fieldset>
         <div>
           <h1 className='first-title'>your favorite movie..</h1>
-            <label className='title'>Name </label>
+            <label className='title'>Name: </label>
               <input
                 type="text"
                 className="partOfForm"
@@ -65,7 +65,7 @@ submitForm(e) {
           </div>
   
           <div>
-            <label className='title'>Url</label>
+            <label className='title'>Url:</label>
               <input
               type="text"
               className="partOfForm"
@@ -76,7 +76,7 @@ submitForm(e) {
           </div>
   
           <div>
-            <label className='title'>Comment</label>
+            <label className='title'>Comment:</label>
               <textarea
               type="text"
               className="partOfForm"
